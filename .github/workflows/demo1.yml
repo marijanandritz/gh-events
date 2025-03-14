@@ -2,7 +2,7 @@ name: Events Demo 1
 on:
   pull_request:
     types: [opened]
-  worlow_dispatch:
+  worklow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
